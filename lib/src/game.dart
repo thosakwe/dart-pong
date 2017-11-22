@@ -29,7 +29,7 @@ class Game {
 
     paddle1 = new Paddle(
       new Point<int>(centerX, canvas.height - Paddle.size.y),
-      const AIInputController(5),
+      const UserInputController(5),
     );
     paddle2 = new Paddle(
       new Point<int>(centerX, 0),
